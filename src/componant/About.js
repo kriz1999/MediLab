@@ -79,9 +79,9 @@ function About() {
              
             <Grid  key={doctor.name} item xs={12} sm={6} md={3} lg={3}  pr={2}
             sx={{  display: { xs: 'flex', md: 'none' }}}
-            >             <Slide right>
+            >       
                 <Accord doctor={doctor}></Accord>
-                </Slide>  
+      
             </Grid>
     
       )} )}

@@ -8,7 +8,7 @@ import VaccinesIcon from '@mui/icons-material/Vaccines';
 import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 import { useState } from 'react';
-import { Slide } from "react-awesome-reveal";
+
 
 
 
@@ -36,49 +36,49 @@ const handle= () =>{
         <Container maxWidth='lg'>
             <Grid container spacing={2} pt={5} pl={2} >
                 <Grid item xs={12} sm={4}  p={3} >
-                    <Slide left>
+                    
                         <Typography color='text.main' variant='h4' fontWeight='400' >Our Service</Typography>
                         <hr className={'serviceLine'}></hr>
-                        <Typography color='text.main' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum Lorem ipsum dolor sit amet, consectetur adipisicing elit,  </Typography> 
-                    </Slide>
+                        <Typography color='text.main' fontSize='18px' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum Lorem ipsum dolor sit amet, consectetur adipisicing elit,  </Typography> 
+                 
                 </Grid>
                 <Grid item xs={12} sm={8}   >
                     <Grid container spacing={2} pt={2}>
                         <Grid item sm={12} md={6} p={3}>
-                         <Slide right>
+                        
                             <MedicalInformationIcon  fontSize='large'  color="myColor"></MedicalInformationIcon>
                             <Typography color='text.main' variant='h5' >24 Hour Support</Typography>
                             <hr className={'serviceLine'}></hr>
-                            <Typography  color='text.main'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
-                        </Slide>
+                            <Typography  color='text.main' fontSize='15px' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
+                     
                         </Grid>
                         <Grid item sm={12} md={6} p={3}>
-                        <Slide right>
+                       
                         <HealingIcon  fontSize='large'  color="myColor"></HealingIcon>
                         <Typography  color='text.main' variant='h5'>Emergency Services</Typography>
                         <hr className={'serviceLine'}></hr>
-                        <Typography  color='text.main'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
-                        </Slide>
+                        <Typography  color='text.main' fontSize='15px' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
+                     
                        </Grid>
                         <Grid item sm={12} md={6} p={3}>
-                        <Slide right>
+                       
                         <VaccinesIcon  fontSize='large'  color="myColor"></VaccinesIcon>
 
                         <Typography color='text.main' variant='h5'>Medical Counseling</Typography>
                         <hr className={'serviceLine'}></hr>
 
-                        <Typography  color='text.main'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
-                        </Slide>  
+                        <Typography  color='text.main' fontSize='15px' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
+                       
                           </Grid>
                         <Grid item sm={12} md={6} p={3}>
-                        <Slide right>
+                       
                         <MonitorHeartIcon   fontSize='large'  color="myColor"></MonitorHeartIcon>
 
                         <Typography  color='text.main' variant='h5'>Premium Healthcare</Typography>
                         <hr className={'serviceLine'}></hr>
 
-                        <Typography  color='text.main'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
-                        </Slide>
+                        <Typography  color='text.main' fontSize='15px' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
+                     
                         </Grid>
 
                     </Grid>
@@ -88,22 +88,22 @@ const handle= () =>{
 
             <Grid container  pt={5} pl={2}  >
                 <Grid item xs={12} sm={12} md={4}  pr={0.1} >
-                  <Slide left>
+                  
                     <div className=   'table'>
                         <Typography  variant='h5' color='white'>Emergency case</Typography>
-                        <Typography  color='white'  pr={4}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates ducimus obcaecati voluptatum possimus quas voluptatem quam sequi tempora consequatur</Typography>
+                        <Typography  color='white' fontSize='15px' pr={4}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates ducimus obcaecati voluptatum possimus quas voluptatem quam sequi tempora consequatur</Typography>
                         <Button ><Typography color='darkblue' textTransform='capitalize'> Read More ....</Typography></Button> 
                     </div>
-                    </Slide>
+                 
               </Grid>
                 <Grid item xs={12} sm={12} md={4}  pr={0.1}>
                     <div className= 'table'>
                         <Typography  variant='h5' color='white'>Emergency case</Typography>
-                        <Typography  color='white' pr={4} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates ducimus obcaecati voluptatum possimus quas voluptatem quam sequi tempora consequatur</Typography>
+                        <Typography  color='white' pr={4}  fontSize='15px' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates ducimus obcaecati voluptatum possimus quas voluptatem quam sequi tempora consequatur</Typography>
                         <Button ><Typography color='darkblue' textTransform='capitalize'> Read More ....</Typography></Button>                  </div>
                 </Grid>
                 <Grid item xs={12} sm={12} md={4} >
-                <Slide right>
+               
                 <div className=  'table'>
                     <Typography  variant='h5' color='white'>Opening Hours </Typography>
                     <TableContainer >
@@ -126,7 +126,7 @@ const handle= () =>{
                         </Table>
                         </TableContainer>
                     </div>
-                    </Slide>
+                 
                 </Grid>
             </Grid>
 
@@ -141,7 +141,7 @@ const handle= () =>{
                     <Button onClick={()=> {handle()}}> <Typography textTransform='capitalize' color='myColor.main'>{morebtn}</Typography></Button>
                 </Grid>
                 <Grid item xs={12} sm={8}   >
-                <Slide left>
+                
                     <Grid container  spacing={2} pt={2}>
                   
                          <Grid item xs={1} sm={1} md={1}  >
@@ -149,8 +149,8 @@ const handle= () =>{
                         </Grid>
                         <Grid item xs={11} sm={11} md={11} p={5} >
                             <div className='dream'>
-                                <Typography color='text.main' variant='h5' >It's something important you want to know.</Typography>
-                                <Typography color='text.main' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
+                                <Typography color='text.main'  variant='h5' >It's something important you want to know.</Typography>
+                                <Typography color='text.main' fontSize='15px' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
                             </div>                 
                         </Grid>
                    
@@ -159,12 +159,12 @@ const handle= () =>{
                         <Grid item xs={11} sm={11} md={11}  pb={3}>
                             <div className='dream'>
                                 <Typography  color='text.main' variant='h5'>It's something important you want to know.</Typography>
-                                <Typography  color='text.main'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
+                                <Typography  color='text.main' fontSize='15px' >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Typography>        
                             </div>
                         </Grid>
                         
                     </Grid>
-                    </Slide>  
+                   
                 </Grid>
                         
             </Grid>

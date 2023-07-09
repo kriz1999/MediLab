@@ -18,9 +18,9 @@ const location = useLocation();
     <Box sx={{ backgroundColor: "navColor.main"}}>
     <Container maxWidth='lg'>
       <Grid container pl={2} pt={5} pb={5} >
-        <Grid item xs={12} md={4}  p={1}  mb={5}>
-            <Typography  variant='h4'mb={3}  color='white'  > About Us</Typography>
-            <Typography color='white'  > Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio dolores quasi quae consequuntur accusamus.</Typography>
+        <Grid item xs={12} md={4}  p={1}  mb={5}  pr={5}>
+            <Typography  variant='h4' mb={3}  color='white'  > About Us</Typography>
+            <Typography color='white' fontSize='15px' > Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio dolores quasi quae consequuntur accusamus.</Typography>
         </Grid>
 
         <Grid item xs={12} md={4} p={1} mb={5}>
