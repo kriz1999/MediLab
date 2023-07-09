@@ -1,0 +1,10 @@
+.accor{
+   border-radius: 25px !important;
+   box-shadow: 5px 5px 10px rgba(52, 194, 241, 0.3) !important;
+   background-color: rgb(213, 233, 239) !important;
+
+}
+.imgDoctor{
+    width: 100%;
+    height: auto;
+}

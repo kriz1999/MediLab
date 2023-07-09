@@ -1,0 +1,50 @@
+.speech {
+    font-size: 1.1em;
+    color: rgb(18, 1, 1);
+    background: rgb(234, 241, 243);
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+    box-shadow: 8px 8px 10px rgba(27, 95, 118, 0.3);
+
+
+
+  }
+  .speech::after {
+  
+    content: "";
+    border: 20px solid transparent;
+    position: absolute;
+  }
+   
+  .bottom.speech::after {
+
+    border-top-color: rgb(234, 241, 243);
+    border-bottom: 0;
+    bottom: -15px; left: 20%;
+   
+  }
+
+
+.Feed{
+    background-color:#26c5da72 ;
+    margin-top: 50px;
+}
+.Alex{
+    margin-top: 5%;
+    padding-left:10%;
+    display: flex;
+}
+.AlexText{
+    margin-left: 10px;
+}
+
+.ScriptWords{
+    color: aqua !important;
+position: absolute;
+bottom: 5%;
+left: 1% !important;
+
+
+}

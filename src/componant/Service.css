@@ -1,0 +1,42 @@
+
+.table{
+    background-color: #26c5dab7!important;
+    min-height: 220px;
+    padding: 20px;
+    border: 1px solid white;
+  
+}
+.tableSec{
+    background-color: #26c5dab7!important;
+    min-height: 220px;
+    padding: 20px;
+    border: 1px solid white;
+ 
+}
+
+.dream{
+    padding-left: 10px !important;
+ 
+}
+
+.dark3{
+    color: rgb(209, 190, 14) !important;
+}
+.dark4{
+  background-color: gb(185, 204, 19);  
+}
+.dark5{
+    color: aliceblue !important;
+  
+}
+.dark6{
+    color: hwb(0 0% 100%) !important;
+  
+}
+
+@media (max-width: 900px){
+    .table{
+        min-height: 150px; 
+}
+
+}

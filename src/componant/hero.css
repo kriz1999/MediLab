@@ -1,0 +1,22 @@
+.Hero{
+    background-image: url("../img/bg-banner.jpg")  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+
+
+
+  }
+  .HeroLayer{
+    background-color:#334f63a2;  
+    min-height: 400px; 
+  }
+  .dark3{
+    background-color: #69623b7b;
+  }
+  .dark4{
+   background-color: #eecb04 !important;
+  }
+
+  

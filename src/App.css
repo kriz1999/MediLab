@@ -1,0 +1,46 @@
+html,
+body {
+  background-color: #eff5f6;
+  font-family: 'monospace' !important;
+}
+
+.serviceLine{
+  width: 70%;
+  padding-left: 0%;
+  margin-left: 0%;
+  height: 3px;
+  background-color: #26c6da;
+  border: 0ch;
+  margin-bottom: 20px;
+}
+
+.FeedLine{
+  width: 50%;
+  padding-left: 0%;
+  margin-left: 0%;
+  height: 3px;
+  background-color: #06a4b8fc;
+  background-color: #26c6da;
+  border: 0ch;
+  margin-bottom: 20px;
+}
+  .About{
+    position: relative;
+  }
+.dark{
+  background-color: #0e1b3b;
+}
+.light{
+  background-color: #eff5f6};
+
+.links{
+text-decoration: none !important;
+color: white;
+}
+
+
+.navLocationFooter{
+  border-bottom: 3px solid !important;
+
+padding: 1px !   important;
+}

@@ -1,0 +1,18 @@
+.navLocation{
+border-bottom: 3px solid rgb(237, 237, 237) !important;
+padding: 1px !   important;
+
+}
+.menuApp{
+    background-color: red 
+}
+.imgLogo{
+    width: 100px;
+    position: absolute;
+    top: 7px;
+    left: 15%;
+}
+.imgLogoLarge{
+    width: 150px;
+    margin-left: 10px;
+}
